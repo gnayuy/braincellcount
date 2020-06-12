@@ -1,8 +1,7 @@
 numpy
 nibabel
-PIL
-skimage
-nrrd
-cv2
-math
+Pillow
+scikit-image
+pynrrd
+opencv-python
 scipy

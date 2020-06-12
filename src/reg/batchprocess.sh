@@ -4,7 +4,7 @@
 # set ANTs program environment path
 # export PATH=~/work/tools/ANTs/build/bin:$PATH
 
-alias python=python3
+# alias python=python3
 
 while read line
 do
