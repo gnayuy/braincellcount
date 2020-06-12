@@ -36,7 +36,7 @@ Get Started
 ```
   * downsample all images into the same size and set image boundaries with zeros:
 ```
-        n=100; while read file; do if [ -f $file ]; then n=$((n+1)); python zeroBoundary_hsv6.py $file im${n}.nii.gz; fi; done < filelist.txt
+    n=100; while read file; do if [ -f $file ]; then n=$((n+1)); python zeroBoundary_hsv6.py $file im${n}.nii.gz; fi; done < filelist.txt
 ```
 
 
