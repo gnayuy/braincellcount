@@ -1,7 +1,7 @@
 BrainCellCount
 ===========
 
-BrainCellCount is an open-source, semi-automatically Slice-to-volume Brain Aligner, to count cells via mapping mouse brain regions of interests (ROIs) between the studying brain and the [CCFv3](https://doi.org/10.1016/j.cell.2020.04.007).
+BrainCellCount is an open-source, semi-automatically Slice-to-volume Brain Aligner, to count cells via mapping mouse brain regions of interests (ROIs) between the studying brain and the Allen mouse brain atlas [CCFv3](https://doi.org/10.1016/j.cell.2020.04.007).
 
 Install
 -------
