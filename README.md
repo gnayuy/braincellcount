@@ -34,7 +34,7 @@ Get Started
 ```
     for i in {1..15}_{1..10}.tif; do echo $i >> filelist.txt; done
 ```
-  * downsample all images into the same size and set image boundaries with zeros:
+   * downsample all images into the same size and set image boundaries with zeros:
 ```
     n=100; while read file; do if [ -f $file ]; then n=$((n+1)); python zeroBoundary_hsv6.py $file im${n}.nii.gz; fi; done < filelist.txt
 ```
